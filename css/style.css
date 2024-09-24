@@ -216,3 +216,38 @@
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
 }
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+.skill-card {
+  background-color: #314355;
+  color: white;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.skill-card .card-body i {
+  color: white;
+}
+
+.skill-card .card-title,
+.skill-card .card-text {
+  color: white;
+}
